@@ -1,5 +1,5 @@
 # DataScience Training
-
+![DATASCIENCE](https://cdn-images-1.medium.com/max/1043/0*rNapZQnyP5EBLYli.png)
 ### The repository contains work done on following topic:
 
 1. Basic python (Data structure, operators etc)
