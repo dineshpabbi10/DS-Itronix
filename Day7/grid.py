@@ -1,0 +1,36 @@
+#sudo apt-get install python-tk
+from tkinter import *
+a=Tk()
+a.geometry("500x500+30+30")
+a.title("Shopping Cart")
+
+
+B1=Button(a,text="Google",width=10,height=5,bd=5,fg="blue",bg="white")
+B2=Button(a,text="Vlc",width=10,height=5,bd=5,fg="blue",bg="white")
+B3=Button(a,text="Restart",width=10,height=5,bd=5,fg="blue",bg="white")
+B4=Button(a,text="Shut down",width=10,height=5,bd=5,fg="blue",bg="white")
+B5=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B6=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B7=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B8=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B9=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B10=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B11=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B12=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B13=Button(a,text="Click me",width=10,height=5,bd=5,fg="blue",bg="white")
+B1.grid(row=0,column=0,rowspan=2)
+B2.grid(row=0,column=1,columnspan=2)
+B3.grid(row=0,column=3,rowspan=2)
+B4.grid(row=1,column=1)
+B5.grid(row=1,column=2)
+B6.grid(row=2,column=0)
+B7.grid(row=2,column=1)
+B8.grid(row=2,column=2)
+B9.grid(row=2,column=3)
+B10.grid(row=3,column=0)
+B11.grid(row=3,column=1)
+B12.grid(row=3,column=2)
+B13.grid(row=3,column=3)
+a.mainloop()
+
+
